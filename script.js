@@ -14,7 +14,12 @@ function read_json(file_path) {
   return jsonData
 }
 
-const inventario_path = {
+const inventario_path = "./data/inventario.json";
+
+
+const inventario  = read_json(inventario_path) 
+
+inventario ={
   "cosmetiqueros": [
     {
       "descripcion": "Este elegante estuche de maquillaje cuenta con un diseño compacto y moderno que lo hace ideal para llevar contigo en cualquier lugar. Cuenta con una amplia variedad de compartimentos y cajones que te permiten organizar y almacenar tus productos de belleza de manera ordenada y accesible."
@@ -27,9 +32,6 @@ const inventario_path = {
     }
   ]
 };
-
-
-const inventario  = read_json(inventario_path) 
 
 console.log(inventario)
 console.log(inventario['cosmetiqueros'])
