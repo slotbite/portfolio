@@ -54,7 +54,7 @@ function mostrarCosmetiqueros(json) {
 
     // Creamos una etiqueta img para la imagen del cosmetiquero
     let img = document.createElement("img");
-    img.src = "img/cosmetiquero/bd" + cosmetiquero.img.toString() + ".png" ;
+    img.src = "img/cosmetiqueros/" + cosmetiquero.img.toString() + ".png" ;
     card.appendChild(img);
 
     // Creamos una etiqueta p para la descripción del cosmetiquero
