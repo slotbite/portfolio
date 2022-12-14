@@ -43,7 +43,8 @@ console.log(inventario['cosmetiqueros'])
 
 function mostrarCosmetiqueros(json) { 
   // Obtiene el elemento donde se mostrarán las cartas
-  const cardContainer = document.getElementById("grid-container");
+  // const cardContainer = document.getElementById("grid-container");
+  let cardContainer = document.querySelector(".grid-container");
 
   // Recorremos el array de cosmetiqueros del json
   for (let cosmetiquero of json.cosmetiqueros) {
