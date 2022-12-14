@@ -107,6 +107,6 @@ h5 {
   border-radius: 50%;
 }
 .grid-item img:hover {
-  transform: scale(1.8);
+  transform: scale(2.3);
   z-index: 9999;
 }
