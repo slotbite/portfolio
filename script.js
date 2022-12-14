@@ -38,12 +38,12 @@ const inventario = {
 
 console.log(inventario)
 console.log(inventario['cosmetiqueros'])
-// Obtiene el elemento donde se mostrarán las cartas
-const cardContainer = document.getElementById("grid-container");
 
 
 
 function mostrarCosmetiqueros(json) { 
+  // Obtiene el elemento donde se mostrarán las cartas
+  const cardContainer = document.getElementById("grid-container");
 
   // Recorremos el array de cosmetiqueros del json
   for (let cosmetiquero of json.cosmetiqueros) {
