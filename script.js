@@ -49,18 +49,18 @@ function mostrarCosmetiqueros(json) {
   // Recorremos el array de cosmetiqueros del json
   for (let cosmetiquero of json.cosmetiqueros) {
     // Creamos una etiqueta div para cada cosmetiquero
-    let div = document.createElement("div");
-    div.className = "grid-item";
+    let card = document.createElement("div");
+    card.className = "grid-item";
 
     // Creamos una etiqueta img para la imagen del cosmetiquero
     let img = document.createElement("img");
     img.src = "img/cosmetiquero/bd" + cosmetiquero.img.toString() + ".png" ;
-    div.appendChild(img);
+    card.appendChild(img);
 
     // Creamos una etiqueta p para la descripción del cosmetiquero
     let p = document.createElement("p");
     p.textContent = cosmetiquero.descripcion;
-    div.appendChild(p);
+    card.appendChild(p);
 
 
     // Agrega la carta al contenedor
