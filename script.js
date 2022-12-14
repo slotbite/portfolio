@@ -1,6 +1,6 @@
 function read_json(file_path) {
   // const URL = "data/inventario/bd.json";
-
+  const jsonData = {}
   fetch(file_path)
     .then(response => response.json())
     .then(data => {
@@ -18,14 +18,14 @@ function read_json(file_path) {
 const bbdd_path = "data/inventario/bd.json";
 
 
-const jsonData  = read_json(bbdd_path) 
+const inventario  = read_json(bbdd_path) 
 
 // Obtiene el elemento donde se mostrarán las cartas
 const cardContainer = document.getElementById("grid-container");
 
 
 
-function mostrarCosmetiqueros(json) { 
+function mostrarCosmetiqueros(inventario) { 
 
   // Recorremos el array de cosmetiqueros del json
   for (let cosmetiquero of json.cosmetiqueros) {
