@@ -22,13 +22,16 @@ const inventario_path = "./data/inventario.json";
 const inventario = {
   "cosmetiqueros": [
     {
-      "descripcion": "Este elegante estuche de maquillaje cuenta con un diseño compacto y moderno que lo hace ideal para llevar contigo en cualquier lugar. Cuenta con una amplia variedad de compartimentos y cajones que te permiten organizar y almacenar tus productos de belleza de manera ordenada y accesible."
+      "descripcion": "Este elegante estuche de maquillaje cuenta con un diseño compacto y moderno que lo hace ideal para llevar contigo en cualquier lugar. Cuenta con una amplia variedad de compartimentos y cajones que te permiten organizar y almacenar tus productos de belleza de manera ordenada y accesible.",
+      "img":1
     },
     {
-      "descripcion": "Este cosmetiquero de lujo está hecho de piel sintética suave y resistente, y cuenta con un diseño elegante y atemporal que se adapta a cualquier estilo. Cuenta con una amplia variedad de compartimentos y cajones para organizar y almacenar todos tus productos de belleza, desde lápices labiales hasta sombras de ojos y polvos compactos."
+      "descripcion": "Este cosmetiquero de lujo está hecho de piel sintética suave y resistente, y cuenta con un diseño elegante y atemporal que se adapta a cualquier estilo. Cuenta con una amplia variedad de compartimentos y cajones para organizar y almacenar todos tus productos de belleza, desde lápices labiales hasta sombras de ojos y polvos compactos.",
+      "img":2
     },
     {
-      "descripcion": "Este práctico estuche de maquillaje viene en una variedad de colores vibrantes y divertidos que te permiten llevar tu estilo contigo en todo momento. Cuenta con una serie de compartimentos y cajones que te permiten organizar y almacenar tus productos de belleza de manera ordenada y accesible, y viene con una correa ajustable para llevarlo cómodamente contigo en todo momento."
+      "descripcion": "Este práctico estuche de maquillaje viene en una variedad de colores vibrantes y divertidos que te permiten llevar tu estilo contigo en todo momento. Cuenta con una serie de compartimentos y cajones que te permiten organizar y almacenar tus productos de belleza de manera ordenada y accesible, y viene con una correa ajustable para llevarlo cómodamente contigo en todo momento.",
+      "img":3
     }
   ]
 };
