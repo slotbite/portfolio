@@ -14,7 +14,7 @@ function read_json(file_path) {
   return jsonData
 }
 
-const inventario_path = "data/inventario.json";
+const inventario_path = "/data/inventario.json";
 
 
 const inventario  = read_json(inventario_path) 
