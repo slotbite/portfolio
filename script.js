@@ -20,28 +20,6 @@ const bbdd_path = "data/inventario/bd.json";
 
 const jsonData  = read_json(bbdd_path) 
 
-
-
-
-// // Obtiene el elemento donde se mostrarán las cartas
-// const cardContainer = document.getElementById("card-container");
-
-// // Itera sobre el arreglo de cosmetiqueros en el archivo JSON
-// jsonData.cosmetiqueros.forEach(cosmetiquero => {
-//   // Crea una nueva carta
-//   const card = document.createElement("div");
-//   card.className = "card";
-
-//   // Agrega la descripción del cosmetiquero a la carta
-//   const description = document.createElement("p");
-//   description.innerText = cosmetiquero.descripcion;
-//   card.appendChild(description);
-
-//   // Agrega la carta al contenedor
-//   cardContainer.appendChild(card);
-// });
-
-
 // Obtiene el elemento donde se mostrarán las cartas
 const cardContainer = document.getElementById("grid-container");
 

@@ -1,3 +1,3 @@
 # porfolio
 
-[Link a https://slotbite.github.io/porfolio/](https://slotbite.github.io/porfolio/)
+[Link a https://slotbite.github.io/portfolio/](https://slotbite.github.io/portfolio/)
