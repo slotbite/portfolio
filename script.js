@@ -14,10 +14,10 @@ function read_json(file_path) {
   return jsonData
 }
 
-const bbdd_path = "data/inventario.json";
+const inventario_path = "data/inventario.json";
 
 
-const inventario  = read_json(bbdd_path) 
+const inventario  = read_json(inventario_path) 
 
 // Obtiene el elemento donde se mostrarán las cartas
 const cardContainer = document.getElementById("grid-container");
@@ -48,4 +48,4 @@ function mostrarCosmetiqueros(inventario) {
   }
 }
 
-mostrarCosmetiqueros(jsonData);
+mostrarCosmetiqueros(inventario);
