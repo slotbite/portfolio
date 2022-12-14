@@ -24,7 +24,7 @@ const cardContainer = document.getElementById("grid-container");
 
 
 
-function mostrarCosmetiqueros(inventario) { 
+function mostrarCosmetiqueros(json) { 
 
   // Recorremos el array de cosmetiqueros del json
   for (let cosmetiquero of json.cosmetiqueros) {
