@@ -1,24 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
 
-/* Estilos para tema oscuro */
-/* @media (prefers-color-scheme: dark) {
-  body {
-    transition: background-color 5s;
-    background-color: #333333;
-    color: white;
-    font-family: "Amatic SC", bold, sans-serif;
-  }
-} */
-
-/* Estilos para tema claro */
-/* @media (prefers-color-scheme: light) {
-  body {
-    transition: background-color 5s;
-    background-color: white;
-    color: black;
-    font-family: "Amatic SC", bold, sans-serif;
-  }
-} */
+ 
 body {
   background-color: white;
   color: black;
@@ -50,6 +32,36 @@ h1,
 h5 {
   text-align: center;
 }
+
+
+/* Estilo para el contenedor de cartas */
+#card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Estilo para las cartas */
+.card {
+  width: 300px;
+  margin: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Estilo para la descripción de las cartas */
+.card p {
+  margin: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+
+
+
 .habitat {
   font-size: 8px;
   font-family: monospace;
