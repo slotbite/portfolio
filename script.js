@@ -19,6 +19,8 @@ const inventario_path = "data/inventario.json";
 
 const inventario  = read_json(inventario_path) 
 
+console.log(inventario)
+console.log(inventario['cosmetiqueros'])
 // Obtiene el elemento donde se mostrarán las cartas
 const cardContainer = document.getElementById("grid-container");
 
