@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Lato&display=swap');
  
 body {
   background-color: white;
   color: black;
   transition: background-color 3s;
-  font-family: "Amatic SC", bold, sans-serif;
+  font-family: "Lato", bold, sans-serif;
 }
 
 .dark-mode {
