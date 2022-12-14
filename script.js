@@ -1,5 +1,4 @@
 function read_json(file_path) {
-  // const URL = "data/inventario/bd.json";
   const jsonData = {}
   fetch(file_path)
     .then(response => response.json())
